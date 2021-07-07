@@ -14,5 +14,12 @@ namespace Resizer_of_images
         {
             InitializeComponent();
         }
+        // test sample
+        //int count = 0;
+        //void Button_Clicked(object sender, System.EventArgs e)
+        //{
+        //    count++;
+        //    ((Button)sender).Text = $"You clicked {count} times.";
+        //}
     }
 }
