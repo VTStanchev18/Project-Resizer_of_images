@@ -4,10 +4,22 @@
              x:Class="Resizer_of_images.MainPage">
 
     <StackLayout BackgroundColor="#fdfd96">
-        <Frame BackgroundColor="White" Padding="24" CornerRadius="0">
+        <Frame BackgroundColor="White" Padding="24" CornerRadius="5">
             <Image Source="tmp_1625555901439" />
         </Frame>
-    
+
+        <StackLayout Margin="30,115,25,30">
+        <Button Text="Go to the gallery"
+                TextColor="#e6556a"
+                BackgroundColor="white"
+                BorderColor="#38a1fc"
+                BorderWidth="1"
+                CornerRadius="5"
+                WidthRequest="80"
+                HeightRequest="50" 
+         />
+        </StackLayout>
+
     </StackLayout>
     
 
