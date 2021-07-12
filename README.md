@@ -19,11 +19,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 <!-- PROJECT LOGO -->
 <br />
@@ -68,13 +64,13 @@ Our project is to resize a photo.
 `github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
 
 ### Built With
-* []()
-* []()
-* []()
+* [Visual Studio 2019]()
+* [Word]()
+* [PowerPoint]()
 
 <!-- Who we are -->
 ## Who we are?
-Vasil Stanchev - V - email
+Vasil Stanchev - VTStanchev18@codingburgas.bg - email
 
 Krasiyana Kamburova - KSKamburova18@codinbgurgas.bg - email
 
