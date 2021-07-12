@@ -3,17 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Resizer_of_images.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="#97f2f3" Padding="24" CornerRadius="0">
-            <Label Text="Resizer_of_images" HorizontalTextAlignment="Center" TextColor="White" FontSize="23"/>
+    <StackLayout BackgroundColor="#fdfd96">
+        <Frame BackgroundColor="White" Padding="24" CornerRadius="0">
+            <Image Source="tmp_1625555901439" />
         </Frame>
-
-        <Frame BackgroundColor="#F1E080" Padding="50" CornerRadius="0">
-            <Label Text="Sample" HorizontalTextAlignment="Center" TextColor="Black" FontSize="17"/>
-            <!--<Button Text="Go to gallery" />-->
-        </Frame>
-        
-        
+    
     </StackLayout>
+    
 
 </ContentPage>
