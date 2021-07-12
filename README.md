@@ -25,7 +25,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://user-images.githubusercontent.com/59726051/124730398-f9059080-df19-11eb-851f-f8b6d100c027.jpg" alt="Logo" width="240" height="190">
+    <img src="https://user-images.githubusercontent.com/59726051/124730398-f9059080-df19-11eb-851f-f8b6d100c027.jpg" alt="Logo" width="400" height="200">
   </a>
   <h3 align="center">Resize-of-image</h3>
   <p align="center">
@@ -67,6 +67,7 @@ Our project is to resize a photo.
 * [Visual Studio 2019]()
 * [Word]()
 * [PowerPoint]()
+* [Xamarin platform]()
 
 <!-- Who we are -->
 ## Who we are?
