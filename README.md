@@ -74,7 +74,7 @@ Our project is to resize a photo.
 
 <!-- Who we are -->
 ## Who we are?
-Vasil Stanchev - V - email
+Vasil Stanchev - VTStanchev18@codingburgas.bg - email
 
 Krasiyana Kamburova - KSKamburova18@codinbgurgas.bg - email
 
