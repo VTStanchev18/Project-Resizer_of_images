@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resizer_of_images_v2.Android", "Resizer_of_images_v2\Resizer_of_images_v2.Android\Resizer_of_images_v2.Android.csproj", "{A7755DD3-230A-4EB1-9503-A6602C37F920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resizer_of_images_v2", "Resizer_of_images_v2\Resizer_of_images_v2\Resizer_of_images_v2.csproj", "{7279D1FB-DF9A-4C72-B325-2C6CDE08D111}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7755DD3-230A-4EB1-9503-A6602C37F920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7755DD3-230A-4EB1-9503-A6602C37F920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7755DD3-230A-4EB1-9503-A6602C37F920}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A7755DD3-230A-4EB1-9503-A6602C37F920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7755DD3-230A-4EB1-9503-A6602C37F920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7755DD3-230A-4EB1-9503-A6602C37F920}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7279D1FB-DF9A-4C72-B325-2C6CDE08D111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7279D1FB-DF9A-4C72-B325-2C6CDE08D111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7279D1FB-DF9A-4C72-B325-2C6CDE08D111}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7279D1FB-DF9A-4C72-B325-2C6CDE08D111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7279D1FB-DF9A-4C72-B325-2C6CDE08D111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7279D1FB-DF9A-4C72-B325-2C6CDE08D111}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3993505-29C5-43D5-92D7-C0310F94141A}
+	EndGlobalSection
+EndGlobal

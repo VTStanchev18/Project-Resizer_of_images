@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Resizer_of_images_v2.Views.AboutPage"
+             xmlns:vm="clr-namespace:Resizer_of_images_v2.ViewModels"
+             Title="{Binding Title}">
+    
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent"></Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                    <Image Source="tmp_1625555901439.png" VerticalOptions="Center" HeightRequest="64" />
+                </ContentView>
+            </StackLayout>
+        </StackLayout>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="15" BackgroundColor="#fdfd96">
+                <Label Text="This is a app about resizing pictures" FontSize="17" />
+                <Label Text="Click the button below to select the right picture from your gallery" FontSize="17"/>
+                <Button Text="Go to the gallery"
+                        TextColor="#e6556a"
+                        BackgroundColor="white"
+                        BorderColor="#38a1fc"
+                        BorderWidth="1"
+                        CornerRadius="5"
+                        WidthRequest="80"
+                        HeightRequest="50" 
+                />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>
