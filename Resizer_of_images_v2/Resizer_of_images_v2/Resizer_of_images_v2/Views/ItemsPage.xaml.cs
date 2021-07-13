@@ -21,6 +21,7 @@ namespace Resizer_of_images_v2.Views
             InitializeComponent();
 
             BindingContext = _viewModel = new ItemsViewModel();
+
         }
 
         protected override void OnAppearing()
@@ -28,5 +29,7 @@ namespace Resizer_of_images_v2.Views
             base.OnAppearing();
             _viewModel.OnAppearing();
         }
+
+        
     }
 }
