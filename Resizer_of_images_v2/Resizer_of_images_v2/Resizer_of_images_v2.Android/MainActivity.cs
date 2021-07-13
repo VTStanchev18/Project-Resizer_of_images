@@ -24,43 +24,43 @@ namespace Resizer_of_images_v2.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
-        public byte[] ResizeImage(byte[] imageData, float width, float height)
-        {
+        //public byte[] ResizeImage(byte[] imageData, float width, float height)
+        //{
 
-            BitmapFactory.Options options = new BitmapFactory.Options();
-            options.InPurgeable = true;
-            Bitmap originalImage = BitmapFactory.DecodeByteArray(imageData, 0, imageData.Length, options);
+        //    BitmapFactory.Options options = new BitmapFactory.Options();
+        //    options.InPurgeable = true;
+        //    Bitmap originalImage = BitmapFactory.DecodeByteArray(imageData, 0, imageData.Length, options);
 
-            float newHeight = 0;
-            float newWidth = 0;
+        //    float newHeight = 0;
+        //    float newWidth = 0;
 
-            var originalHeight = originalImage.Height;
-            var originalWidth = originalImage.Width;
+        //    var originalHeight = originalImage.Height;
+        //    var originalWidth = originalImage.Width;
 
-            if (originalHeight > originalWidth)
-            {
-                newHeight = height;
-                float ratio = originalHeight / height;
-                newWidth = originalWidth / ratio;
-            }
-            else
-            {
-                newWidth = width;
-                float ratio = originalWidth / width;
-                newHeight = originalHeight / ratio;
-            }
+        //    if (originalHeight > originalWidth)
+        //    {
+        //        newHeight = height;
+        //        float ratio = originalHeight / height;
+        //        newWidth = originalWidth / ratio;
+        //    }
+        //    else
+        //    {
+        //        newWidth = width;
+        //        float ratio = originalWidth / width;
+        //        newHeight = originalHeight / ratio;
+        //    }
 
-            Bitmap resizedImage = Bitmap.CreateScaledBitmap(originalImage, (int)newWidth, (int)newHeight, true);
+        //    Bitmap resizedImage = Bitmap.CreateScaledBitmap(originalImage, (int)newWidth, (int)newHeight, true);
 
-            originalImage.Recycle();
+        //    originalImage.Recycle();
 
-            using (MemoryStream ms = new MemoryStream())
-            {
-                resizedImage.Compress(Bitmap.CompressFormat.Png, 100, ms);
+        //    using (MemoryStream ms = new MemoryStream())
+        //    {
+        //        resizedImage.Compress(Bitmap.CompressFormat.Png, 100, ms);
 
-                resizedImage.Recycle();
+        //        resizedImage.Recycle();
 
-                return ms.ToArray();
-            }
+        //        return ms.ToArray();
+        //    }
         }
 }
