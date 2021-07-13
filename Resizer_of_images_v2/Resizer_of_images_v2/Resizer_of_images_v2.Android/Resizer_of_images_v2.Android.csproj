@@ -95,5 +95,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\tmp_1625555901439.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Icon_Resizer.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

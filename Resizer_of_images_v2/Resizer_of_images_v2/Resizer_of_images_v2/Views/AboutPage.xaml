@@ -31,15 +31,7 @@
             <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="15" BackgroundColor="#fdfd96">
                 <Label Text="This is a app about resizing pictures" FontSize="17" />
                 <Label Text="Click the button below to select the right picture from your gallery" FontSize="17"/>
-                <Button Text="Go to the gallery"
-                        TextColor="#e6556a"
-                        BackgroundColor="white"
-                        BorderColor="#38a1fc"
-                        BorderWidth="1"
-                        CornerRadius="5"
-                        WidthRequest="80"
-                        HeightRequest="50" 
-                />
+                
             </StackLayout>
         </ScrollView>
     </Grid>
