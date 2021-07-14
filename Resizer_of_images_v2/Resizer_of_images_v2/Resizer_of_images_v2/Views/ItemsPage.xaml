@@ -47,6 +47,9 @@
                                 Clicked="Button_Clicked"
                         />
                         <Label x:Name="Something" />
+                        <Entry Placeholder="Width" />
+                        <Entry Placeholder="height"/>
+
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
